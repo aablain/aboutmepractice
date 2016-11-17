@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0px;
+    }
+  body {
+    max-width: 1300px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+.head h1 {
+  /*float: left;*/
+padding-top: 75px;
+padding-bottom: 75px;
+font-size: 40px;
+/*z-index: -1;*/
+}
+.head h3 {
+  position: relative;
+  float: right;
+  margin-left: 40px;
+  font-size: 25px;
+  top: -110px;
+}
+.columnLeft {
+  margin: 50px 20px 20px 20px;
+  clear: left;
+  float: left;
+  /*width: 350px;*/
+  width: 45%;
+  min-width: 300px;
+}
+h2 ~ p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*.columnLeft p {
+  margin-bottom: 50px;
+}*/
+/*.contact {
+  float: left;
+  width: 45%;
+  max-width: 650px;
+  min-width: 300px;
+  background-color: orange;
+}*/
+.gallery {
+  height: 85px;
+  width: 85px;
+  float: right;
+  margin: 15px 15px 15px 15px;
+  border-radius: 5px;
+}
+.gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
+  margin-top: 45px;
+}
+.gallery:nth-of-type(4n+1) {
+  clear: right;
+  margin-right: 15px;
+}
+.gallery:active {
+  position: absolute;
+  top:400px;
+  left:450px;
+  height: 30%;
+  width: 30%;
+  z-index: 1;
+}
+.picPile {
+  margin-left: auto;
+  margin-right: auto;
+ overflow: auto;
+ min-width: 300px;
+ max-width: 650px;
+}
+.myLife {
+  overflow: auto;
+  margin-top: 50px;
+  width: 45%;
+  max-width: 650px;
+  min-width: 427px;
+}
+
+button {
+  background-color: rgb(72, 40, 247);
+  height: 62px;
+  width: 160px;
+  padding: auto;
+  border-radius: 3px;
+  color: white;
+  clear: left;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+#kitpic {
+  overflow: auto;
+  clear: both;
+  width: inherit;
+  text-align: center;
+}
+#kitpic img {
+  margin: auto;
+  width: 100%;
+}
+
+i {
+  margin: 10px;
+  margin-bottom: 50px;
+}
